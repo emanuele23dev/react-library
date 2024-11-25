@@ -13,18 +13,23 @@ header {
   color: white;
   padding: 1rem 2rem;
   display: flex;
-  justify-content: space-between0
+  justify-content: space-between;
   align-items: center;
 
-  nav{
-    a{
-        text-decoration: none;
-        color: white;
-        padding: 0.5rem;
+  nav {
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 0.5rem;
+
+      &.active {
+        text-decoration: underline;
+        color: aqua;
+      }
     }
   }
 }
 
 main {
-    min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
 }
